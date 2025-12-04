@@ -6,6 +6,6 @@ use Illuminate\Database\Eloquent\Model;
 
 class Produto extends Model
 {
-    protected $fillable = ['nome', 'descricao'];
+    // Adicione 'imagem' aos campos permitidos
+    protected $fillable = ['nome', 'descricao', 'imagem'];
 }
-
